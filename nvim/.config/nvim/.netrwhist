@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/graham/.config/nvim'
+let g:netrw_dirhist_7='/Users/graham'
+let g:netrw_dirhist_6='/Users/graham/.config/nvim'
+let g:netrw_dirhist_5='/Users/graham'
+let g:netrw_dirhist_4='/Users/graham/Development'
+let g:netrw_dirhist_3='/Users/graham/Development/dotfiles'
+let g:netrw_dirhist_2='/Users/graham/Development'
+let g:netrw_dirhist_1='/Users/graham'
