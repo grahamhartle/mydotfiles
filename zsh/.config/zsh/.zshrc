@@ -10,7 +10,7 @@ export PATH="/usr/local/opt/ncurses/bin:$PATH"
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
-editor="/usr/local/share/nano"
+editor="nvim"
 
 # aliases
 alias pip=pip3.9
