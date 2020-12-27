@@ -35,7 +35,7 @@ zstyle ':completion:*' group-name ''
 zstyle ':completion:::::' completer _expand _complete _ignored _approximate
 zstyle ':fuzzy-search-and-edit:editor' use-visual yes
 
-test -e /Users/graham/.iterm2_shell_integration.zsh && source /Users/graham/.iterm2_shell_integration.zsh || true
+test -e $HOME/.iterm2_shell_integration.zsh && source $HOME/.iterm2_shell_integration.zsh || true
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
