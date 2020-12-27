@@ -1,0 +1,19 @@
+{
+  "lists": {
+    "%2FUsers%2Fgraham%2F": {
+      "config%2Fzsh": [
+        "e"
+      ]
+    }
+  },
+  "extensions": {
+    "%2FUsers%2Fgraham%2F": {
+      "config%2Fzsh": [
+        "q"
+      ],
+      "config%2Fnvim%2Fplug-config": [
+        "q?"
+      ]
+    }
+  }
+}
