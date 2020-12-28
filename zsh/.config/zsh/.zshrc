@@ -17,6 +17,9 @@ alias pip=pip3.9
 alias python=python3.9
 
 # options
+HISTSIZE=10000
+SAVEHIST=10000
+HISTFILE='$HOME/history/.zsh_history'
 setopt auto_cd
 setopt auto_list
 setopt auto_menu
