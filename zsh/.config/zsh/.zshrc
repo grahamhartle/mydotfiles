@@ -5,6 +5,7 @@ if type brew &>/dev/null; then
     compinit
   fi
 
+export PATH="/bin/bash:$PATH"
 export PATH="/usr/local/bin/python3.9:$PATH"
 export PATH="/usr/local/opt/ncurses/bin:$PATH"
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
