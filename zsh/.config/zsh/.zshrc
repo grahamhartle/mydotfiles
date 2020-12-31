@@ -7,11 +7,14 @@ if type brew &>/dev/null; then
 
 export PATH="/bin/bash:$PATH"
 export PATH="/usr/local/bin/python3.9:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="/usr/local/opt/ncurses/bin:$PATH"
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 editor="nvim"
+
+RUBYPATH="/usr/local/opt/ruby/bin"
 
 # aliases
 alias pip=pip3.9
