@@ -1,0 +1,6 @@
+pane	0	1	:zsh	1	:*	1	:/Users/graham	1	zsh	:
+pane	0	1	:zsh	1	:*	2	:/Users/graham	0	zsh	:
+pane	0	2	:zsh	0	:-	1	:/Users/graham	1	zsh	:
+window	0	1	1	:*	4959,273x71,0,0{137x71,0,0,2,135x71,138,0,5}
+window	0	2	0	:-	b7e0,273x71,0,0,3
+state	0	

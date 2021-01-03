@@ -26,7 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " NerdTree
     Plug 'scrooloose/nerdTree'
     " Git plugin for NerdTree
-    Plug 'Xuyuanp/nerdtree-git-plugin'
+    Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
     " FZF & Vim-router
     Plug 'junegunn/fzf', {'do': { -> fzfinstall() }}
