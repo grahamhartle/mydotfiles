@@ -1,6 +1,0 @@
-pane	0	1	:nvim	1	:*	1	:/Users/graham	0	nvim	:nvim
-pane	0	1	:nvim	1	:*	2	:/Users/graham/.config/nvim/plug-config	1	nvim	:nvim start-screen.vim
-pane	0	2	:zsh	0	:-	1	:/Users/graham	1	zsh	:
-window	0	1	1	:*	8f01,212x58,0,0{106x58,0,0,0,105x58,107,0,4}
-window	0	2	0	:-	cddf,212x58,0,0,2
-state	0	

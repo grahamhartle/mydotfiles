@@ -684,4 +684,4 @@ let &cpo = s:save_cpo
 unlet s:save_cpo
 
 " modeline syntax:
-" vim: fdm=marker tabstop=2 softtabstop=2 shiftwidth=2 expandtab:=
+" vim: fdm=marker tabstop=2 softtabstop=2 shiftwidth=2 expandtab
