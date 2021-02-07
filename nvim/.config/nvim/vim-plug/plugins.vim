@@ -14,23 +14,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Theme
     Plug 'joshdick/onedark.vim'
-    " Stable version of coc
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Airline themes
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
-    " Rainbow parenthesis
-    Plug 'junegunn/rainbow_parentheses.vim'
-    " Startify
-    Plug 'mhinz/vim-startify'
-    " NerdTree
-    Plug 'scrooloose/nerdTree'
-    " Git plugin for NerdTree
-    Plug 'kyazdani42/nvim-web-devicons'
-    Plug 'ryanoasis/vim-devicons'
     " FZF & Vim-router
     Plug 'junegunn/fzf', {'do': { -> fzfinstall() }}
     Plug 'junegunn/fzf.vim'
-    Plug 'airblade/vim-rooter'
+    " Startify
+    Plug 'mhinz/vim-startify'
 
     call plug#end()
