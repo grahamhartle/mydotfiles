@@ -51,5 +51,6 @@ antigen apply
 
 test -e /Users/graham/.config/zsh/.iterm2_shell_integration.zsh && source /Users/graham/.config/zsh/.iterm2_shell_integration.zsh || true
 
+# export PATH="/usr/local/opt/luajit-openresty/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
