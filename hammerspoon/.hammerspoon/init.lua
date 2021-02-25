@@ -44,7 +44,7 @@ end
 --- quick open applications
 hs.hotkey.bind(launcher, 'V', open_app("Visual Studio Code"))
 hs.hotkey.bind(launcher, 'S', open_app("Safari"))
-hs.hotkey.bind(launcher, 'T', open_app("iTerm"))
+hs.hotkey.bind(launcher, 'T', open_app("kitty"))
 hs.hotkey.bind(launcher, 'E', open_app("Spark"))
 
 --- reload config
