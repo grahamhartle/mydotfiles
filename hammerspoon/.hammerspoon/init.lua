@@ -12,18 +12,6 @@ spoon.SpoonInstall:andUse("WindowScreenLeftAndRight", {
     hotkeys = 'default'
 })
 
-function reloadConfig(files)
-    doReload = false
-    for _,file in pairs(files) do
-        if file:sub(-4) == ".lua" then
-            doReload = true
-        end
-    end
-    if doReload then
-        hs.reload()
-    end
-end
-
 --- move cursor between screens
 function move_cursor(direction)
     return function()
@@ -57,8 +45,21 @@ end
 hs.hotkey.bind(launcher, 'V', open_app("Visual Studio Code"))
 hs.hotkey.bind(launcher, 'S', open_app("Safari"))
 hs.hotkey.bind(launcher, 'T', open_app("iTerm"))
+hs.hotkey.bind(launcher, 'E', open_app("Spark"))
 
 --- reload config
+function reloadConfig(files)
+    doReload = false
+    for _,file in pairs(files) do
+        if file:sub(-4) == ".lua" then
+            doReload = true
+        end
+    end
+    if doReload then
+        hs.reload()
+    end
+end
+
 myWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reloadConfig)
 :start()
 hs.alert.show("Config loaded")
