@@ -6,6 +6,12 @@ if type brew &>/dev/null; then
     compinit
   fi
 
+TMUX_CONFIG='~/.config/tmux/.tmux.conf'
+alias tn='tmux -u -f $TMUX_CONFIG new'
+alias ta='tmux -u -f $TMUX_CONFIG attach'
+alias tt='nvim ~/.config/tmux/.tmux.conf'
+
+PYTHONPATH=/usr/local/opt/python@3.9/libexec/bin
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -49,8 +55,11 @@ antigen apply
 
 . /usr/local/etc/profile.d/z.sh
 
-test -e /Users/graham/.config/zsh/.iterm2_shell_integration.zsh && source /Users/graham/.config/zsh/.iterm2_shell_integration.zsh || true
+# test -e /Users/graham/.config/zsh/.iterm2_shell_integration.zsh && source /Users/graham/.config/zsh/.iterm2_shell_integration.zsh || true
 
 # export PATH="/usr/local/opt/luajit-openresty/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+export PATH="/usr/local/opt/ncurses/bin:$PATH"
+
