@@ -52,7 +52,7 @@ antigen apply
 
 # other settings
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
+source ~/.config/.zsh/zsh-dircolors-nord/zsh-dircolors-nord.zsh
 . /usr/local/etc/profile.d/z.sh
 
 # test -e /Users/graham/.config/zsh/.iterm2_shell_integration.zsh && source /Users/graham/.config/zsh/.iterm2_shell_integration.zsh || true
